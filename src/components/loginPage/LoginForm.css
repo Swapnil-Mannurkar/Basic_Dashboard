@@ -1,0 +1,9 @@
+.loginForm {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 1.88rem;
+  justify-content: space-around;
+  height: 19.81rem;
+}

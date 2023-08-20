@@ -1,0 +1,26 @@
+.logoContainer {
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+}
+
+.logoName {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-weight: 700;
+  animation: fadeInAnimation ease 3s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
