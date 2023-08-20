@@ -7,6 +7,8 @@ const Button = (props) => {
   let height = props.height;
   let width = props.width;
   let textColor = props.textColor;
+  let fontSize = props.fontSize;
+  let fontWeight = props.fontWeight;
 
   const buttonStyle = {
     backgroundColor: backgroundColor,
@@ -19,12 +21,21 @@ const Button = (props) => {
     alignItems: "center",
     marginRight: "1.56rem",
     color: textColor,
+    fontSize: fontSize,
+    fontWeight: fontWeight,
+    fontFamily: "Montserrat",
   };
 
   return (
     <div>
       <button style={buttonStyle}>
-        <img src={getIcon(props.type)} /> &nbsp; {props.text}
+        <img src={getIcon(props.type)} />
+        {props.type === "google" || props.type === "apple" ? (
+          <span>&nbsp;&nbsp;</span>
+        ) : (
+          ""
+        )}
+        {props.text}
       </button>
     </div>
   );

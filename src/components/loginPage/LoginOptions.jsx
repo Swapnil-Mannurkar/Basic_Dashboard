@@ -9,6 +9,12 @@ const LoginOptions = () => {
       <p className="signInDescription">Sign in to your account</p>
       <LoginButtons />
       <LoginForm />
+      <p className="registerLink">
+        Don't have an account?{" "}
+        <a href="/" className="forgotPasswordLink">
+          Register here
+        </a>
+      </p>
     </div>
   );
 };

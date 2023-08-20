@@ -6,15 +6,21 @@ const LoginForm = () => {
     <form action="" className="loginForm">
       <label htmlFor="emailAddress">Email Address</label>
       <input type="email" placeholder="johndoe@gmail.com" />
-      <label htmlFor="password">Password</label>
-      <input type="password" />
-      <a>Forgot password?</a>
+      <label htmlFor="password" style={{ marginTop: "10px" }}>
+        Password
+      </label>
+      <input type="password" value={"johndoe@gmail.com"} />
+      <a href="/" className="forgotPasswordLink" style={{ margin: "5px 0" }}>
+        Forgot password?
+      </a>
       <Button
         backgroundColor={"#000000"}
         text={"Sign In"}
-        height={"2rem"}
+        height={"2.5rem"}
         width={"100%"}
         textColor={"#ffffff"}
+        fontSize={"16px"}
+        fontWeight={"700"}
       />
     </form>
   );

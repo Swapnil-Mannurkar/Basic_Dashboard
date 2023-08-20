@@ -6,19 +6,23 @@ const LoginButtons = () => {
     <div className="loginButtonsContainer">
       <Button
         backgroundColor={"#ffffff"}
-        width={"11.25rem"}
-        height={"1.875rem"}
+        width={"180px"}
+        height={"30px"}
         text={"Sign in with Google"}
         type={"google"}
         textColor={"#858585"}
+        fontSize={"12px"}
+        fontWeight={"400"}
       />
       <Button
         backgroundColor={"#ffffff"}
-        height={"1.875rem"}
-        width={"11.25rem"}
+        width={"180px"}
+        height={"30px"}
         text={"Sign in with Apple"}
         type={"apple"}
         textColor={"#858585"}
+        fontSize={"12px"}
+        fontWeight={"400"}
       />
     </div>
   );
