@@ -1,0 +1,13 @@
+.loginButton {
+  font-family: Montserrat;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.56rem;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+}

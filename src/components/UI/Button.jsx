@@ -1,6 +1,6 @@
 import "./Button.css";
-import googleIcon from "../../assets/images/google-icon.svg";
-import appleIcon from "../../assets/images/apple-icon.svg";
+import googleIcon from "../../assets/images/loginPage/google-icon.svg";
+import appleIcon from "../../assets/images/loginPage/apple-icon.svg";
 
 const Button = (props) => {
   let backgroundColor = props.backgroundColor;
@@ -14,21 +14,18 @@ const Button = (props) => {
     backgroundColor: backgroundColor,
     height: height,
     width: width,
-    border: "none",
-    borderRadius: "10px",
-    display: "flex ",
-    justifyContent: "center",
-    alignItems: "center",
-    marginRight: "1.56rem",
     color: textColor,
     fontSize: fontSize,
     fontWeight: fontWeight,
-    fontFamily: "Montserrat",
   };
 
   return (
     <div>
-      <button style={buttonStyle}>
+      <button
+        style={buttonStyle}
+        className="loginButton"
+        // onClick={(event) => event.preventDefault()}
+      >
         <img src={getIcon(props.type)} />
         {props.type === "google" || props.type === "apple" ? (
           <span>&nbsp;&nbsp;</span>

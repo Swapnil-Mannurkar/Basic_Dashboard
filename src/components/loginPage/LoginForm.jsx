@@ -5,11 +5,11 @@ const LoginForm = () => {
   return (
     <form action="" className="loginForm">
       <label htmlFor="emailAddress">Email Address</label>
-      <input type="email" placeholder="johndoe@gmail.com" />
+      <input type="email" className="loginFormInput" placeholder="johndoe@gmail.com" />
       <label htmlFor="password" style={{ marginTop: "10px" }}>
         Password
       </label>
-      <input type="password" value={"johndoe@gmail.com"} />
+      <input type="password" className="loginFormInput" value={"johndoe@gmail.com"} />
       <a href="/" className="forgotPasswordLink" style={{ margin: "5px 0" }}>
         Forgot password?
       </a>

@@ -1,6 +1,6 @@
 .loginPage {
   display: grid;
-  grid-template-columns: 1fr 1.8fr;
+  grid-template-columns: 1fr 1.4fr;
   background-color: #f5f5f5;
 }
 

@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #000000;
+  color: #ffffff;
+  height: 100%;
+  width: 250px;
+  border-radius: 30px;
+  padding: 30px 50px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  font-family: Montserrat;
+  padding: 0;
+  width: 100%;
+}
+
+.navbarCompanyName {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.navbarItemsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.navbarItems {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.navbarContact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+  margin-top: 40px;
+}

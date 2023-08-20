@@ -1,0 +1,35 @@
+.cardContainer {
+  border-radius: 20px;
+  width: 245px;
+  height: 110px;
+}
+
+.cardIcon {
+  position: relative;
+  top: 15%;
+  left: 75%;
+}
+
+.cardDetails {
+  position: relative;
+  top: 15%;
+  left: 10%;
+}
+
+.cardDetails h2 {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cardDetails p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

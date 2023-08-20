@@ -1,0 +1,38 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboardTitle {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.profileDetails {
+  display: flex;
+  gap: 25px;
+}
+
+.profilePicture {
+  border-radius: 50%;
+}
+
+.dashboardSearch {
+  width: 140px;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 0 20px;
+  color: #b0b0b0;
+  font-size: 14px;
+}
