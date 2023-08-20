@@ -12,29 +12,43 @@ const Navbar = () => {
       <div className="navbarItemsContainer">
         <ul className="navbarItems">
           <li className="active">
-            <img src={DashboardIcon} alt=" " />
-            &nbsp;&nbsp;&nbsp;&nbsp;Dashboad
+            <a href="/">
+              <img src={DashboardIcon} alt=" " />
+              &nbsp;&nbsp;&nbsp;&nbsp;Dashboad
+            </a>
           </li>
           <li>
-            <img src={TransactionIcon} alt=" " />
-            &nbsp;&nbsp;&nbsp;&nbsp;Transactions
+            <a href="/">
+              <img src={TransactionIcon} alt=" " />
+              &nbsp;&nbsp;&nbsp;&nbsp;Transactions
+            </a>
           </li>
           <li>
-            <img src={ScheduleIcon} alt=" " />
-            &nbsp;&nbsp;&nbsp;&nbsp;Schedules
+            <a href="/">
+              <img src={ScheduleIcon} alt=" " />
+              &nbsp;&nbsp;&nbsp;&nbsp;Schedules
+            </a>
           </li>
           <li>
-            <img src={UserIcon} alt=" " />
-            &nbsp;&nbsp;&nbsp;&nbsp;Users
+            <a href="/">
+              <img src={UserIcon} alt=" " />
+              &nbsp;&nbsp;&nbsp;&nbsp;Users
+            </a>
           </li>
           <li>
-            <img src={SettingIcon} alt=" " />
-            &nbsp;&nbsp;&nbsp;&nbsp;Settings
+            <a href="/">
+              <img src={SettingIcon} alt=" " />
+              &nbsp;&nbsp;&nbsp;&nbsp;Settings
+            </a>
           </li>
         </ul>
         <ul className="navbarContact">
-          <li>Help</li>
-          <li>Contact us</li>
+          <li>
+            <a href="/">Help</a>
+          </li>
+          <li>
+            <a href="/">Contact us</a>
+          </li>
         </ul>
       </div>
     </nav>

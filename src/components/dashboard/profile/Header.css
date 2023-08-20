@@ -36,3 +36,8 @@
   color: #b0b0b0;
   font-size: 14px;
 }
+
+.dashboardSearch:focus {
+  outline: none;
+}
+
