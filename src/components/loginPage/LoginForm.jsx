@@ -9,7 +9,7 @@ const LoginForm = () => {
       <label htmlFor="password" style={{ marginTop: "10px" }}>
         Password
       </label>
-      <input type="password" className="loginFormInput" value={"johndoe@gmail.com"} />
+      <input type="password" className="loginFormInput" />
       <a href="/" className="forgotPasswordLink" style={{ margin: "5px 0" }}>
         Forgot password?
       </a>

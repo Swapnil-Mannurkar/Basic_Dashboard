@@ -2,11 +2,11 @@ import "./Login.css";
 import Logo from "./Logo";
 import LoginOptions from "./LoginOptions";
 
-const Login = () => {
+const Login = (props) => {
   return (
     <div className="loginPage">
       <Logo />
-      <LoginOptions />
+      <LoginOptions onClick={props.onClick} />
     </div>
   );
 };

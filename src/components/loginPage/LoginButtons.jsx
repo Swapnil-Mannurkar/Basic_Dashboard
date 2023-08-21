@@ -1,7 +1,7 @@
 import Button from "../UI/Button";
 import "./LoginButtons.css";
 
-const LoginButtons = () => {
+const LoginButtons = (props) => {
   return (
     <div className="loginButtonsContainer">
       <Button
@@ -13,6 +13,7 @@ const LoginButtons = () => {
         textColor={"#858585"}
         fontSize={"12px"}
         fontWeight={"400"}
+        onClick={props.onClick}
       />
       <Button
         backgroundColor={"#ffffff"}

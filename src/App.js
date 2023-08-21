@@ -1,18 +1,15 @@
-import React, { useState } from "react";
-
-import "./App.css";
+import React, { useContext } from "react";
+import AuthContext from "./assets/data/AuthContext";
 import Login from "./components/loginPage/Login";
 import Dashboard from "./components/dashboard/Dashboard";
 
 function App() {
-  // eslint-disable-next-line
-  const [isLoggedIN, setIsLoggedIN] = useState(false);
-
+  const context = useContext(AuthContext);
   return (
-    <div>
-      {isLoggedIN && <Login />}
-      {!isLoggedIN && <Dashboard />}
-    </div>
+    <>
+      {context.isLoggedIn && <Dashboard />}
+      {!context.isLoggedIn && <Login />}
+    </>
   );
 }
 
