@@ -1,7 +1,7 @@
 import Header from "./Header";
 import "./Profile.css";
 import ProfileCards from "./ProfileCards";
-import Activities from "./Activities";
+import Activities from "./chart/Activities";
 
 const Profile = () => {
   return (
