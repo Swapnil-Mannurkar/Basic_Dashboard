@@ -24,11 +24,11 @@ const Header = () => {
               <img src={searchIcon} alt="" />
             </div>
           </div>
-          <img src={Notification} alt="notification" />
+          <img src={Notification} alt="notification" className="hover" />
           <img
             src={ProfilePicture}
             alt="profilePhoto"
-            className="profilePicture"
+            className="profilePicture hover"
             onClick={context.onDisplayDropdown}
           />
         </div>
