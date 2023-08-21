@@ -26,7 +26,7 @@ const Button = (props) => {
         className="loginButton"
         // onClick={(event) => event.preventDefault()}
       >
-        <img src={getIcon(props.type)} />
+        <img src={getIcon(props.type)} alt="loginIcon" />
         {props.type === "google" || props.type === "apple" ? (
           <span>&nbsp;&nbsp;</span>
         ) : (
@@ -46,5 +46,7 @@ const getIcon = (iconName) => {
       return googleIcon;
     case "apple":
       return appleIcon;
+    default:
+      return null;
   }
 };

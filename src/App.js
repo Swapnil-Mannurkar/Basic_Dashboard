@@ -5,6 +5,7 @@ import Login from "./components/loginPage/Login";
 import Dashboard from "./components/dashboard/Dashboard";
 
 function App() {
+  // eslint-disable-next-line
   const [isLoggedIN, setIsLoggedIN] = useState(false);
 
   return (
