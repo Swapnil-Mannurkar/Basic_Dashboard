@@ -2,7 +2,7 @@
   "name": "openinapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://swapnil-mannurkar-openinapp-assign.netlify.app",
+  "homepage": "https://swapnil-mannurkar-openinapp.netlify.app",
   "dependencies": {
     "@react-oauth/google": "^0.11.1",
     "@testing-library/jest-dom": "^5.17.0",
