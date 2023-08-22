@@ -39,7 +39,7 @@ export const AuthContextProvider = (props) => {
         })
         .then((data) => {
           setProfile(data);
-          localStorage.setItem("name", data.name);
+          localStorage.setItem("name", data.given_name);
           localStorage.setItem("picture", data.picture);
         })
         .catch((error) => {

@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import "./Dropdown.css"
+import "./Dropdown.css";
 import AuthContext from "../../../../assets/data/AuthContext";
 
-const Modal = ({ onClose }) => {
+const Modal = () => {
   const context = useContext(AuthContext);
   const handleLogout = () => {
     context.onLogout();
@@ -13,17 +13,18 @@ const Modal = ({ onClose }) => {
       <div className="modal-container" onClick={context.onDisplayDropdown} />
       <div className="modal-content">
         <ul className="modal-list">
+          <li style={{fontWeight: 700}}>Hi {localStorage.getItem("name")}!</li>
           <li>
-            <a href="/">Revenues</a>
+            <a href="/">Profile</a>
           </li>
           <li>
-            <a href="/">Transactions</a>
+            <a href="/">Notification</a>
           </li>
           <li>
-            <a href="/">Likes</a>
+            <a href="/">Settings</a>
           </li>
           <li>
-            <a href="/">Users</a>
+            <a href="/">Switch account</a>
           </li>
         </ul>
         <button
