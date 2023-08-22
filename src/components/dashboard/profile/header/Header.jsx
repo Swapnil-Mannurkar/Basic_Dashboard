@@ -1,7 +1,7 @@
 import "./Header.css";
-import Notification from "../../../assets/images/dashboard/notification.svg";
-import AuthContext from "../../../assets/data/AuthContext";
-import searchIcon from "../../../assets/images/dashboard/search-icon.svg";
+import Notification from "../../../../assets/images/dashboard/notification.svg";
+import AuthContext from "../../../../assets/data/AuthContext";
+import searchIcon from "../../../../assets/images/dashboard/search-icon.svg";
 import { useContext } from "react";
 import React from "react";
 

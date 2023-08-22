@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import "./Dropdown.css";
-import AuthContext from "../../../assets/data/AuthContext";
+import "./Dropdown.css"
+import AuthContext from "../../../../assets/data/AuthContext";
 
 const Modal = ({ onClose }) => {
   const context = useContext(AuthContext);

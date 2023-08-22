@@ -1,6 +1,6 @@
 import "./Login.css";
-import Logo from "./Logo";
-import LoginOptions from "./LoginOptions";
+import Logo from "./logo/Logo";
+import LoginOptions from "./loginOptions/LoginOptions";
 
 const Login = (props) => {
   return (

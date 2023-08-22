@@ -1,4 +1,4 @@
-import Dropdown from "../dashboard/profile/Dropdown";
+import Dropdown from "./profile/header/Dropdown";
 import AuthContext from "../../assets/data/AuthContext";
 import "./Dashboard.css";
 import Navbar from "./navbar/Navbar";
