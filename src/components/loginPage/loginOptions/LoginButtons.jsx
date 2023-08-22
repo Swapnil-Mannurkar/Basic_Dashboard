@@ -6,8 +6,8 @@ const LoginButtons = (props) => {
     <div className="loginButtonsContainer">
       <Button
         backgroundColor={"#ffffff"}
-        width={"180px"}
-        height={"30px"}
+        width={`${window.innerWidth < 960 ? "165px" : "180px"}`}
+        height={`${window.innerWidth < 960 ? "40px" : "30px"}`}
         text={"Sign in with Google"}
         type={"google"}
         textColor={"#858585"}
@@ -17,8 +17,8 @@ const LoginButtons = (props) => {
       />
       <Button
         backgroundColor={"#ffffff"}
-        width={"180px"}
-        height={"30px"}
+        width={`${window.innerWidth < 960 ? "165px" : "180px"}`}
+        height={`${window.innerWidth < 960 ? "40px" : "30px"}`}
         text={"Sign in with Apple"}
         type={"apple"}
         textColor={"#858585"}

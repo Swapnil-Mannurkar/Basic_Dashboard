@@ -5,7 +5,11 @@ const LoginForm = () => {
   return (
     <form action="" className="loginForm">
       <label htmlFor="emailAddress">Email Address</label>
-      <input type="email" className="loginFormInput" placeholder="johndoe@gmail.com" />
+      <input
+        type="email"
+        className="loginFormInput"
+        placeholder="johndoe@gmail.com"
+      />
       <label htmlFor="password" style={{ marginTop: "10px" }}>
         Password
       </label>
@@ -16,10 +20,10 @@ const LoginForm = () => {
       <Button
         backgroundColor={"#000000"}
         text={"Sign In"}
-        height={"2.5rem"}
-        width={"100%"}
+        height={`${window.innerWidth < 960 ? "1.75rem" : "2.5rem"}`}
+        width={`${window.innerWidth < 960 ? "40%" : "100%"}`}
         textColor={"#ffffff"}
-        fontSize={"16px"}
+        fontSize={`${window.innerWidth < 960 ? "12px" : "16px"}`}
         fontWeight={"700"}
       />
     </form>

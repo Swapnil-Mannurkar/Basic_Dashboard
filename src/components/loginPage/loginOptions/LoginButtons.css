@@ -2,3 +2,9 @@
   margin-top: 1.62rem;
   display: flex;
 }
+
+@media screen and (max-width:960px) {
+  .loginButtonsContainer {
+    gap: 1rem;
+  }
+}

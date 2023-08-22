@@ -46,7 +46,11 @@ const Button = (props) => {
     </button>
   );
 
-  return <div>{props.type === "google" ? googleButton : otherButton}</div>;
+  return (
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      {props.type === "google" ? googleButton : otherButton}
+    </div>
+  );
 };
 
 export default Button;
