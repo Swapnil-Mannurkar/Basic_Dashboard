@@ -14,7 +14,11 @@ const Navbar = (props) => {
   const navbar = {
     transition: "all 0.5s ease",
     transform: `${
-      context.displayNavbar ? "translateX(0)" : "translateX(-450px)"
+      window.innerWidth < 960
+        ? context.displayNavbar
+          ? "translateX(0)"
+          : "translateX(-450px)"
+        : "translateX(0)"
     }`,
   };
 
