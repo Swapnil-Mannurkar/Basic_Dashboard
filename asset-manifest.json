@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/openinapp/static/css/main.a7599d72.css",
-    "main.js": "/openinapp/static/js/main.f725a08c.js",
-    "static/media/setting_icon.svg": "/openinapp/static/media/setting_icon.ed69076239ab37ad1eef5f6a33a01dc5.svg",
-    "static/media/revenue.svg": "/openinapp/static/media/revenue.5b5bd81d21fd74c9cd5dbb2cc20cee0d.svg",
-    "static/media/totalUsers.svg": "/openinapp/static/media/totalUsers.5014fd8a56bd87c41338fa066a1dcb36.svg",
-    "static/media/transaction_icon.svg": "/openinapp/static/media/transaction_icon.0f0c62e39e238030cd95121ae6fbbcb8.svg",
-    "static/media/total_transactions_icon.svg": "/openinapp/static/media/total_transactions_icon.def3736ae7e381d3b22261b7a3f72be4.svg",
-    "static/media/user_icon.svg": "/openinapp/static/media/user_icon.0a8c4b9e6e3bcaee393ed262734a9402.svg",
-    "static/media/dashboard_icon.svg": "/openinapp/static/media/dashboard_icon.e11ff6fdb331895c2a7aa2a2e951665f.svg",
-    "static/media/like.svg": "/openinapp/static/media/like.149881ea0c81a84de22d7535a4aee8a0.svg",
-    "static/media/google-icon.svg": "/openinapp/static/media/google-icon.41165d8303e4c18f3090750a5c06d3b3.svg",
-    "static/media/schedule_icon.svg": "/openinapp/static/media/schedule_icon.9c6181fc071a3bc81828e232cab0fba9.svg",
-    "static/media/notification.svg": "/openinapp/static/media/notification.9b2c3e5e81e662392dd791a39114683c.svg",
-    "static/media/apple-icon.svg": "/openinapp/static/media/apple-icon.b647c4fe207ebd7e68f450a5d9106c2a.svg",
-    "index.html": "/openinapp/index.html",
-    "static/media/dropdown.svg": "/openinapp/static/media/dropdown.89de82ac6a8eee4727d25c7a9148ba0c.svg",
-    "static/media/search-icon.svg": "/openinapp/static/media/search-icon.8513f4d8b9733dc777a4c3561d287cf3.svg",
-    "main.a7599d72.css.map": "/openinapp/static/css/main.a7599d72.css.map",
-    "main.f725a08c.js.map": "/openinapp/static/js/main.f725a08c.js.map"
+    "main.css": "/static/css/main.07594583.css",
+    "main.js": "/static/js/main.669aa4c3.js",
+    "static/media/setting_icon.svg": "/static/media/setting_icon.ed69076239ab37ad1eef5f6a33a01dc5.svg",
+    "static/media/revenue.svg": "/static/media/revenue.5b5bd81d21fd74c9cd5dbb2cc20cee0d.svg",
+    "static/media/totalUsers.svg": "/static/media/totalUsers.5014fd8a56bd87c41338fa066a1dcb36.svg",
+    "static/media/transaction_icon.svg": "/static/media/transaction_icon.0f0c62e39e238030cd95121ae6fbbcb8.svg",
+    "static/media/total_transactions_icon.svg": "/static/media/total_transactions_icon.def3736ae7e381d3b22261b7a3f72be4.svg",
+    "static/media/user_icon.svg": "/static/media/user_icon.0a8c4b9e6e3bcaee393ed262734a9402.svg",
+    "static/media/dashboard_icon.svg": "/static/media/dashboard_icon.e11ff6fdb331895c2a7aa2a2e951665f.svg",
+    "static/media/like.svg": "/static/media/like.149881ea0c81a84de22d7535a4aee8a0.svg",
+    "static/media/google-icon.svg": "/static/media/google-icon.41165d8303e4c18f3090750a5c06d3b3.svg",
+    "static/media/schedule_icon.svg": "/static/media/schedule_icon.9c6181fc071a3bc81828e232cab0fba9.svg",
+    "static/media/notification.svg": "/static/media/notification.9b2c3e5e81e662392dd791a39114683c.svg",
+    "static/media/apple-icon.svg": "/static/media/apple-icon.b647c4fe207ebd7e68f450a5d9106c2a.svg",
+    "static/media/dropdown.svg": "/static/media/dropdown.89de82ac6a8eee4727d25c7a9148ba0c.svg",
+    "index.html": "/index.html",
+    "static/media/search-icon.svg": "/static/media/search-icon.8513f4d8b9733dc777a4c3561d287cf3.svg",
+    "main.07594583.css.map": "/static/css/main.07594583.css.map",
+    "main.669aa4c3.js.map": "/static/js/main.669aa4c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7599d72.css",
-    "static/js/main.f725a08c.js"
+    "static/css/main.07594583.css",
+    "static/js/main.669aa4c3.js"
   ]
 }
