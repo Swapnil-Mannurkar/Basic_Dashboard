@@ -1,17 +1,4 @@
-.activitiesContainer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 400px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  background-color: #ffffff;
-  border-radius: 20px;
-  margin-top: 30px;
-}
-
-canvas {
+.activitiesTitle canvas {
   width: 93% !important;
   height: 85% !important;
 }
@@ -19,7 +6,7 @@ canvas {
 .activitiesTitle {
   width: 100%;
   height: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 80px;
 }
 
@@ -28,8 +15,6 @@ canvas {
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 700;
-  position: relative;
-  top: 15px;
 }
 
 .activitiesTitle .month {
@@ -37,6 +22,4 @@ canvas {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
-  position: relative;
-  top: 15px;
 }

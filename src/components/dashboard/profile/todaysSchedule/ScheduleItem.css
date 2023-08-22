@@ -1,0 +1,29 @@
+.scheduleContainer {
+  display: flex;
+}
+
+.scheduleLine {
+  width: 5px;
+  height: 75%;
+  margin-top: 5px;
+}
+
+.scheduleItem {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.scheduleItem h3 {
+  color: #666;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.scheduleItem p {
+  color: #999;
+  font-family: Lato;
+  font-size: 14px;
+  margin-top: 10px;
+}

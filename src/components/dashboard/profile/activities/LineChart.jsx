@@ -1,8 +1,7 @@
 import { Line } from "react-chartjs-2";
 // eslint-disable-next-line
 import { Chart as ChartJS } from "chart.js/auto";
-import UserData from "./Data";
-import "./Chart.css";
+import UserData from "./LineChartData";
 
 const Chart = () => {
   const userData = {
@@ -14,7 +13,6 @@ const Chart = () => {
         tension: 0.5,
         borderColor: "#E9A0A0",
         pointBackgroundColor: "#E9A0A0",
-        labelColor: "#000000",
       },
       {
         label: "User",
@@ -48,6 +46,7 @@ const Chart = () => {
         align: "end",
         labels: {
           usePointStyle: true,
+          padding: 20,
         },
       },
     },
@@ -59,10 +58,7 @@ const Chart = () => {
   };
 
   return (
-    <div
-      className="custom-legend-spacing"
-      style={{ width: "100%", height: "90%" }}
-    >
+    <div style={{ width: "100%", height: "90%" }}>
       <Line data={userData} options={options} />
     </div>
   );

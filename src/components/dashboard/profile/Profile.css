@@ -3,3 +3,9 @@
     width: 82%;
     margin-left: 340px;
 }
+
+.productSheduleContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}

@@ -1,5 +1,5 @@
-.custom-legend-spacing {
+.piechartContainer {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: -18px;
 }
