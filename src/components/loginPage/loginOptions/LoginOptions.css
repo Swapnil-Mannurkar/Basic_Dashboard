@@ -4,6 +4,19 @@
   justify-content: center;
   width: 39.2%;
   justify-self: center;
+  animation: fadeInAnimationForm ease 2s;
+}
+
+@keyframes fadeInAnimationForm {
+  0% {
+    opacity: 0;
+  }
+  10%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .signInTitle {

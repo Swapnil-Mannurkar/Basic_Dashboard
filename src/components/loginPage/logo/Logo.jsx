@@ -9,14 +9,17 @@ const Logo = (props) => {
     setScreenSize(window.innerWidth);
   }, [screenSize]);
 
-  useEffect(() => {
-    const animationTimeout = setTimeout(() => {
-      setAnimationComplete(true);
-      props.onAnimationComplete();
-    }, 2000);
+  useEffect(
+    () => {
+      const animationTimeout = setTimeout(() => {
+        setAnimationComplete(true);
+        props.onAnimationComplete();
+      }, 2000);
 
-    return () => clearTimeout(animationTimeout);
-  }, []);
+      return () => clearTimeout(animationTimeout);
+    }, // eslint-disable-next-line
+    []
+  );
 
   const logoName = {
     animation: "fadeInAnimation ease 3s",
