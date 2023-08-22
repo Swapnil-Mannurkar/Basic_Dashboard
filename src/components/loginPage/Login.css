@@ -5,8 +5,9 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 960px) {
   .loginPage {
-    grid-template-columns: 100%;
+    grid-template-columns: 100% !important;
+    grid-template-rows: 20% 80% !important;
   }
 }
