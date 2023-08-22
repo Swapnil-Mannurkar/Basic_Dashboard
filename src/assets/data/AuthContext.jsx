@@ -14,6 +14,7 @@ export const AuthContextProvider = (props) => {
   const [user, setUser] = useState(null);
   const [profile, setProfile] = useState(null);
   const [isDisplayDropdown, setIsDisplayDropdown] = useState(false);
+  const [displayNavbar, setDisplayNavbar] = useState(false);
 
   useEffect(() => {
     const storedUserLoggedInformation = localStorage.getItem("isLoggedIn");
@@ -39,7 +40,7 @@ export const AuthContextProvider = (props) => {
         })
         .then((data) => {
           setProfile(data);
-          localStorage.setItem("name", data.given_name);
+          localStorage.setItem("name", data.name);
           localStorage.setItem("picture", data.picture);
         })
         .catch((error) => {
@@ -75,15 +76,21 @@ export const AuthContextProvider = (props) => {
     setIsDisplayDropdown(!isDisplayDropdown);
   };
 
+  const navbarToggleHandler = () => {
+    setDisplayNavbar(!displayNavbar);
+  };
+
   return (
     <AuthContext.Provider
       value={{
         isLoggedIn: isLoggedIn,
         isDisplayDropdown: isDisplayDropdown,
         profile: profile,
+        displayNavbar: displayNavbar,
         onLogout: logoutHandler,
         onLogin: loginHandler,
         onDisplayDropdown: displayDropdownHandler,
+        onClickNavbar: navbarToggleHandler,
       }}
     >
       {props.children}

@@ -4,3 +4,10 @@
   display: grid;
   grid-template-columns: 1fr 3.4fr;
 }
+
+@media screen and (max-width: 960px) {
+  .dashboardContainer {
+    grid-template-columns: 100%;
+    padding: 0px;
+  }
+}

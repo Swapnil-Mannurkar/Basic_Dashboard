@@ -26,9 +26,15 @@
 }
 
 .scheduleItems {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px;
-    margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 960px) {
+  .scheduleItems {
+    padding: 0 25px;
+  }
 }

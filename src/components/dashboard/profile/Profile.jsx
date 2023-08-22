@@ -5,7 +5,7 @@ import Activities from "./activities/Activities";
 import TopProducts from "./topProducts/TopProducts";
 import TodaysSchedule from "./todaysSchedule/TodaysSchedule";
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div className="profileContainer">
       <Header />
