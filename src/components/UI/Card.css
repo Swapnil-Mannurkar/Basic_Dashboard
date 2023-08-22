@@ -59,6 +59,12 @@
   }
 }
 
+@media screen and (max-width: 960px) and (min-width: 550px) {
+  .cardContainer {
+    height: 110px;
+  }
+}
+
 @media screen and (max-width: 1280px) and (min-width: 961px) {
   .cardContainer {
     width: 234px;

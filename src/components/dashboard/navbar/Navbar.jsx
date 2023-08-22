@@ -23,8 +23,8 @@ const Navbar = (props) => {
     transform: `${
       window.innerWidth < 960
         ? context.displayNavbar
-          ? "translateX(0)"
-          : "translateX(-450px)"
+          ? "translateY(0)"
+          : "translateY(-550px)"
         : "translateX(0)"
     }`,
   };
