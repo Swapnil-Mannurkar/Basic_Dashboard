@@ -12,6 +12,7 @@ const Navbar = (props) => {
   const context = useContext(AuthContext);
 
   const navbar = {
+    width: `${window.innerWidth < 960 ? "100%" : "255px"}`,
     transition: "all 0.5s ease",
     transform: `${
       window.innerWidth < 960
