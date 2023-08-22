@@ -47,6 +47,10 @@
   outline: none;
 }
 
+.searchIcon {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 960px) {
   .dashboardTitle {
     display: flex;

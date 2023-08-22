@@ -26,7 +26,7 @@ const Navbar = (props) => {
   return (
     <nav className="navbar" style={navbar}>
       <h1 className="navbarCompanyName">
-        Board.{" "}
+        Board.
         {window.innerWidth < 960 && (
           <div className="navbarCloseIcon" onClick={context.onClickNavbar}>
             <FaTimes />
