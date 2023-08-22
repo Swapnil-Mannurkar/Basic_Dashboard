@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import AuthContext from "../../assets/data/AuthContext";
 import "./Button.css";
 import googleIcon from "../../assets/images/loginPage/google-icon.svg";
@@ -46,7 +46,7 @@ const Button = (props) => {
     </button>
   );
 
-  return <div>{props.type == "google" ? googleButton : otherButton}</div>;
+  return <div>{props.type === "google" ? googleButton : otherButton}</div>;
 };
 
 export default Button;
