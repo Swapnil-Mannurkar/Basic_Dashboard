@@ -67,3 +67,12 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .modal-content {
+    width: 20vw;
+    height: 40vh;
+    right: 2%;
+    top: 10%;
+  }
+}
