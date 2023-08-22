@@ -44,3 +44,10 @@
     margin-top: 5px;
   }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .scheduleItems {
+    margin-top: 45px;
+    padding: 0 20px;
+  }
+}

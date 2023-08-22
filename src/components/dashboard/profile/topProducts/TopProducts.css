@@ -51,3 +51,13 @@
     transform: scale(0.8);
   }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .productTitle {
+    padding: 0 20px;
+  }
+
+  .piechartContainer canvas {
+    transform: scale(0.96);
+  }
+}

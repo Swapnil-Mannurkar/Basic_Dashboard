@@ -10,7 +10,6 @@ const Dashboard = () => {
 
   return (
     <div className="dashboardContainer">
-      {window.innerWidth > 960 && <Navbar />}
       <Navbar />
       <Profile />
       {context.isDisplayDropdown && <Dropdown />}

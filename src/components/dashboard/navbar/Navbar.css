@@ -98,3 +98,9 @@ li {
     display: flex;
   }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .navbar {
+    padding: 15px 25px;
+  }
+}

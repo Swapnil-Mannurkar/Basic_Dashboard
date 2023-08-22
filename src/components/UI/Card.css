@@ -58,3 +58,9 @@
     left: 10%;
   }
 }
+
+@media screen and (max-width: 1280px) and (min-width: 961px) {
+  .cardContainer {
+    width: 234px;
+  }
+}
