@@ -46,7 +46,7 @@ function PieChart() {
   return (
     <div
       className="piechartContainer"
-      style={{ width: "400px", height: "370px" }}
+      style={{ width: "400px", height: "338px" }}
     >
       <Pie data={data} options={options} />
     </div>

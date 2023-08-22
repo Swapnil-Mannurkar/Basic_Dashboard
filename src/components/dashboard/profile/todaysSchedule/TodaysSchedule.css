@@ -37,4 +37,21 @@
   .scheduleItems {
     padding: 0 25px;
   }
+
+  .scheduleTitle {
+    padding: 0 15px;
+    top: 20px;
+  }
+
+  .scheduleTitle .title {
+    font-size: 16px;
+  }
+
+  .scheduleTitle .month {
+    font-size: 12px;
+  }
+
+  .scheduleItems {
+    margin-top: 30px;
+  }
 }

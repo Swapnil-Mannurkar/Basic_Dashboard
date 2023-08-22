@@ -13,6 +13,7 @@
 @media screen and (max-width: 960px) {
   .productSheduleContainer {
     grid-template-columns: 100%;
+    gap: 0rem;
   }
 
   .profileContainer {

@@ -27,3 +27,20 @@
   font-size: 14px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 960px) {
+  .scheduleLine {
+    margin-top: 8px;
+    height: 70%;
+  }
+
+  .scheduleItem h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .scheduleItem p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

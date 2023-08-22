@@ -4,8 +4,11 @@ import ActivitiesCard from "../../../UI/ActivitiesCard";
 import ScheduleItem from "./ScheduleItem";
 
 const TodaysSchedule = () => {
+
+  const height = window.innerWidth < 960 ? "230px" : "290px";
+
   return (
-    <ActivitiesCard height={"335px"}>
+    <ActivitiesCard height={height}>
       <div className="scheduleTitle">
         <div className="title">Today's Schedule</div>
         <div
