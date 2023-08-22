@@ -10,10 +10,10 @@
 .modal-content {
   position: absolute;
   width: 14vw;
-  height: 40vh;
+  height: 35vh;
   top: 11%;
   right: 4.2%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   color: white;
   padding: 20px;
   border-radius: 8px;
@@ -32,11 +32,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: Montserrat;
+  font-size: 16px;
 }
 
 .modal-list a {
   color: #ffffff;
 }
+
 .logoutButton {
   background-color: #ffffff;
   border: none;
@@ -48,4 +51,18 @@
 
 .logoutButton:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .modal-container {
+    margin: 0;
+  }
+
+  .modal-content {
+    width: 40vw;
+  }
+
+  .modal-list {
+    font-size: 14px;
+  }
 }

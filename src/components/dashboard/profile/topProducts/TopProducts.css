@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  top: 40px;
+  top: 20px;
 }
 
 .productTitle .title {
@@ -23,4 +23,31 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
+}
+
+.piechartContainer canvas {
+  position: relative;
+  top: -30px;
+}
+
+@media screen and (max-width: 960px) {
+  .productTitle {
+    padding: 0 15px;
+    justify-content: space-between;
+    top: 20px;
+  }
+
+  .productTitle .title {
+    font-size: 16px;
+  }
+
+  .productTitle .month {
+    font-size: 12px;
+  }
+
+  .piechartContainer canvas {
+    position: relative;
+    top: -50px;
+    transform: scale(0.8);
+  }
 }

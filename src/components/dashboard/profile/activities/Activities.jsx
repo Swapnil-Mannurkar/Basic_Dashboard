@@ -4,8 +4,11 @@ import dropdown from "../../../../assets/images/dashboard/dropdown.svg";
 import ActivitiesCard from "../../../UI/ActivitiesCard";
 
 const Activities = () => {
+
+  const height = window.innerWidth < 960 ? " " : "400px"
+
   return (
-    <ActivitiesCard height={"400px"}>
+    <ActivitiesCard height={height}>
       <div className="activitiesTitle">
         <div className="title">Activities</div>
         <div

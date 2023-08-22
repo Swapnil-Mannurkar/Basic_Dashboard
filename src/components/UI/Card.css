@@ -33,3 +33,28 @@
   font-weight: 700;
   line-height: normal;
 }
+
+@media screen and (max-width: 960px) {
+  .cardContainer {
+    width: 100%;
+    height: 90px;
+  }
+
+  .cardIcon {
+    width: 10%;
+    top: 15%;
+    left: 78%;
+  }
+
+  .cardDetails h2 {
+    font-size: 12px;
+  }
+
+  .cardDetails p {
+    font-size: 20px;
+  }
+
+  .cardDetails {
+    left: 10%;
+  }
+}

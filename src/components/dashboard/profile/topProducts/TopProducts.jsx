@@ -4,8 +4,11 @@ import ActivitiesCard from "../../../UI/ActivitiesCard";
 import PieChart from "./PieChart";
 
 const TopProducts = () => {
+
+  const height = window.innerWidth < 960 ? "250px" : "290px";
+
   return (
-    <ActivitiesCard height={"335px"}>
+    <ActivitiesCard height={height}>
       <div className="productTitle">
         <div className="title">Top Products</div>
         <div
