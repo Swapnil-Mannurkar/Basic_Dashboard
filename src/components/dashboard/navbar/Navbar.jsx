@@ -24,7 +24,7 @@ const Navbar = (props) => {
       window.innerWidth < 960
         ? context.displayNavbar
           ? "translateY(0)"
-          : "translateY(-550px)"
+          : "translateY(-750px)"
         : "translateX(0)"
     }`,
   };
