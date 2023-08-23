@@ -3,14 +3,11 @@ import Button from "../../UI/Button";
 import "./LoginForm.css";
 
 const LoginForm = () => {
-  const emailInput = useRef();
-  const passwordInput = useRef();
 
   return (
     <form action="" className="loginForm">
       <label htmlFor="emailAddress">Email Address</label>
       <input
-        ref={emailInput}
         type="email"
         className="loginFormInput"
         placeholder="johndoe@gmail.com"
@@ -19,7 +16,6 @@ const LoginForm = () => {
         Password
       </label>
       <input
-        ref={passwordInput}
         placeholder="Password"
         type="password"
         className="loginFormInput"
