@@ -1,9 +1,7 @@
-import React, { useRef } from "react";
 import Button from "../../UI/Button";
 import "./LoginForm.css";
 
 const LoginForm = () => {
-
   return (
     <form action="" className="loginForm">
       <label htmlFor="emailAddress">Email Address</label>
@@ -16,9 +14,9 @@ const LoginForm = () => {
         Password
       </label>
       <input
-        placeholder="Password"
         type="password"
         className="loginFormInput"
+        placeholder="johndoe@2000"
       />
       <a href="/" className="forgotPasswordLink" style={{ margin: "5px 0" }}>
         Forgot password?
