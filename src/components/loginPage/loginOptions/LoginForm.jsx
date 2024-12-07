@@ -9,6 +9,7 @@ const LoginForm = () => {
         type="email"
         className="loginFormInput"
         placeholder="johndoe@gmail.com"
+        disabled
       />
       <label htmlFor="password" style={{ marginTop: "10px" }}>
         Password
@@ -17,10 +18,11 @@ const LoginForm = () => {
         type="password"
         className="loginFormInput"
         placeholder="johndoe@2000"
+        disabled
       />
-      <a href="/" className="forgotPasswordLink" style={{ margin: "5px 0" }}>
+      <div className="forgotPasswordLink" style={{ margin: "5px 0" }}>
         Forgot password?
-      </a>
+      </div>
       <Button
         backgroundColor={"#000000"}
         text={"Sign In"}

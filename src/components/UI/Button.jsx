@@ -27,7 +27,11 @@ const Button = (props) => {
   };
 
   const googleButton = (
-    <button style={buttonStyle} className="loginButton" onClick={loginHandler}>
+    <button
+      style={{ ...buttonStyle }}
+      className="loginButton googleButton"
+      onClick={loginHandler}
+    >
       <img src={googleIcon} alt="loginIcon" />
       <span>&nbsp;&nbsp;</span>
       {props.text}
@@ -36,9 +40,15 @@ const Button = (props) => {
 
   const otherButton = (
     <button
-      style={buttonStyle}
+      style={{
+        ...buttonStyle,
+        backgroundColor: "gray",
+        cursor: "not-allowed",
+        color: "white",
+      }}
       className="loginButton"
       onClick={(event) => event.preventDefault()}
+      disabled
     >
       {props.type === "apple" && <img src={appleIcon} alt="loginIcon" />}
       {props.type === "apple" && <span>&nbsp;&nbsp;</span>}

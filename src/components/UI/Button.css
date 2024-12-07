@@ -12,8 +12,24 @@
   cursor: pointer;
 }
 
-@media screen and (max-width:960px) {
+.googleButton {
+  animation: blinkButton 5s infinite;
+}
+
+@media screen and (max-width: 960px) {
   .loginButton {
     margin-right: 0px;
+  }
+}
+
+@keyframes blinkButton {
+  0% {
+    box-shadow: 2px 2px 8px 2px #ff0000;
+  }
+  50% {
+    box-shadow: 0.2px 0.2px 1px 0.2px #ff0000;
+  }
+  100% {
+    box-shadow: 2px 2px 8px 2px #ff0000;
   }
 }
